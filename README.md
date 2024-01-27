@@ -19,12 +19,12 @@ Es necesario que antes de ejecutar el script hagas unos pequeños cambios en el 
 1. Poner tus creedenciales del Jutge
 2. Especificar el PATH ABSOLUTO de la carpeta donde quieres que se descarguen los problemas.
 3. Especificar el PHPSESSID:
-   3.1. Entrar a un problema cualquiera de Jutge, como por ejemplo https://jutge.org/problems/P99182_es
-   3.2. Pulsar F12 y situarse en la pestaña de 'Network'
-   3.3. Pulsar F5 o refrescar la página (así es visible una request)
-   3.4 Se desplegará una lista, pinchar en la que tiene el ID del problema, en el caso anterior P99182_es
-   3.5. Buscar la linea donde pone Cookie y copiar el valor de PHPSESSID, en mi caso aparece así: PHPSESSID=t9hi61slc6rtf1cgfqspedm8bi;
-   3.6 Poner el valor de PHPSESSID en el fichero datos.txt
+3.1. Entrar a un problema cualquiera de Jutge, como por ejemplo https://jutge.org/problems/P99182_es
+3.2. Pulsar F12 y situarse en la pestaña de 'Network'
+3.3. Pulsar F5 o refrescar la página (así es visible una request)
+3.4 Se desplegará una lista, pinchar en la que tiene el ID del problema, en el caso anterior P99182_es
+3.5. Buscar la linea donde pone Cookie y copiar el valor de PHPSESSID, en mi caso aparece así: PHPSESSID=t9hi61slc6rtf1cgfqspedm8bi;
+3.6 Poner el valor de PHPSESSID en el fichero datos.txt
 
 Uso
 Para ejecutar el script, navega al directorio donde se encuentra el archivo `scrapper_jutge.py` y ejecútalo con:
