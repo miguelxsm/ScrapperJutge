@@ -1,0 +1,4 @@
+user: your_email@estudiantat.upc.edu
+password: your_password
+folder_name: /home/your/choosen/path
+PHPSESSID: t9hi61slc6rtf1cgfqspedm8bi
